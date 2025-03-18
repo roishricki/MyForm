@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+
+  /* Primary Colors */
+  --color-marine-blue: hsl(213, 96%, 18%);
+  --color-purplish-blue: hsl(243, 100%, 62%);
+  --color-pastel-blue: hsl(228, 100%, 84%);
+  --color-light-blue: hsl(206, 94%, 87%);
+  --color-strawberry-red: hsl(354, 84%, 57%);
+
+  /* Neutral Colors */
+  --color-cool-gray: hsl(231, 11%, 63%);
+  --color-light-gray: hsl(229, 24%, 87%);
+  --color-magnolia: hsl(217, 100%, 97%);
+  --color-alabaster: hsl(231, 100%, 99%);
+  --color-white: hsl(0, 0%, 100%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  }
+
+  .sidebar-bg-m{
+    background-image: url('/assets/bg-sidebar-mobile.svg');
+  }
+
+    .sidebar-bg-d{
+    background-image: url('/assets/bg-sidebar-desktop.svg');
+  }
+
+  nextjs-portal {
+    display: none;
+  }
