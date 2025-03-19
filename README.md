@@ -114,6 +114,9 @@ A multi-step form application built with Next.js, TypeScript, and PostgreSQL. Th
 
 ## Database Schema
 
+<img width="1011" alt="image" src="https://github.com/user-attachments/assets/4f5736e7-5c12-4a80-b284-f67de5ac3fa7" />
+
+
 ### Plans Table
 - `id`: Primary key
 - `name`: Plan name (Arcade, Advanced, Pro)
